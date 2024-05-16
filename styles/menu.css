@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(92, 87, 87);
+    font-family: sans-serif;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  h2 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .established {
+    font-style: italic;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+    color: #ffd700
+  }
+  
+  .menu {
+    width: 80%;
+    background-color: rgb(10, 10, 10);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3%;
+    border-style:outset;
+    border-width: thick;
+    padding: 20px;
+    max-width: 500px;
+  }
+
+  hr {
+    height: 2px;
+    background-color: #897500;
+    border-color: #897500;
+  }
+  
+  .item p {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .foods, .drinks {
+    text-align: left;
+    width: 25%;
+  }
+  
+  .price {
+    text-align: right;
+    width: 30%
+  }
+
+  .size, .quantity{
+    text-align: right;
+    width: 45%
+  }
+
+  section{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  footer{
+    font-size: 10px;
+    font-style: italic;
+    margin-top: 20px;
+  }
+
+  a{
+    color: white;
+  }
+
+  a:hover{
+    color:#897500;
+  }
+  
+  .bottom-line{
+    margin-top: 25px;
+  }
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 100px;
+    margin-top: -30px;
+  }
+
+button {
+  height: 40px;
+  width: 100px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  background-color: rgb(10, 10, 10);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 46%;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
